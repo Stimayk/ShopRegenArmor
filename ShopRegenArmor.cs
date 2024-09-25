@@ -42,7 +42,7 @@ namespace ShopRegenArmor
         {
             if (JsonArmorRegen == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Ðåãåíåðàöèÿ áðîíè");
+            SHOP_API.CreateCategory(CategoryName, "Ð ÐµÐ³ÐµÐ½ÐµÑ€Ð°Ñ†Ð¸Ñ Ð±Ñ€Ð¾Ð½Ð¸");
 
             foreach (var item in JsonArmorRegen.Properties().Where(p => p.Value is JObject))
             {
